@@ -89,7 +89,6 @@ finlens/
 │
 ├── frontend/
 │   ├── src/
-│   │
 │   ├── .gitignore
 │   ├── eslint.config.js
 │   ├── index.html
@@ -102,13 +101,12 @@ finlens/
 │   ├── models/
 │   ├── routes/
 │   ├── services/
-│   │
 │   ├── .env
 │   ├── .gitignore
 │   ├── package-lock.json
 │   ├── package.json
 │   └── server.js
-│
+|
 └── README.md
 ```
 
