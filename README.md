@@ -85,21 +85,30 @@ MongoDB Atlas
 ## 📂 Project Structure
 
 ```text
-FinLens/
+finlens/
 │
 ├── frontend/
 │   ├── src/
-│   ├── public/
-│   └── package.json
+│   │
+│   ├── .gitignore
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── README.md
+│   └── vite.config.js
 │
-├── backend/
-│   ├── routes/
-│   ├── controllers/
+├── server/
 │   ├── models/
-│   ├── server.js
-│   └── package.json
+│   ├── routes/
+│   ├── services/
+│   │
+│   ├── .env
+│   ├── .gitignore
+│   ├── package-lock.json
+│   ├── package.json
+│   └── server.js
 │
-├── .gitignore
 └── README.md
 ```
 
